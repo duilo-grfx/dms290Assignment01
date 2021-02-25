@@ -1,9 +1,14 @@
 body{
 	font-family: YeezyzTStar, AdineuePRO, Arial;
+
+
+background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%,rgba(255,0,0,1) 100%);
 }
 
 h1{
 	text-shadow: 2px 2px #6a6a6a;
+	text-align: center;
 }
 
 h2{
@@ -15,6 +20,7 @@ h2{
 	background-repeat: no-repeat;
 	background-position: center left;
 	padding-left: 40px;
+	border-bottom: 2px, #ffffff
 	/*border-radius: 10px;*/
 }
 
@@ -52,19 +58,29 @@ nav, .home, .population, .hood, .economy, .source{
 
 .about{
 	grid-column: 1/2;
+	border:1px, #000000;
+	border-style: outset;
+	padding: 3px;
 }
 
 .history{
 	grid-column: 2/3;
+	border:1px, #000000;
+	border-style: outset;
+	padding: 3px;
 }
 
 .geography{
 	grid-column: 3/4;
+		border:1px, #000000;
+	border-style: outset;
+	padding: 3px;
 }
 
 /*navigation bar*/
 .menu{
 	text-align: center;
+
 }
 .menu ul{
 	list-style-type: none;
@@ -76,14 +92,16 @@ nav, .home, .population, .hood, .economy, .source{
 	margin-left:20px;
 }
 .menu ul li a{
-	display: block;
-	padding:10px;
-	color: #63a6bf;
+	border: 1px solid #FFFFFF;
+	border-style: outset;
+	padding: 10px;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 .menu ul li a:hover{
-	color: #4E53A5;
-	background-color: #3BBA9C;
+	color: 	#ffffff;
+	background-color: #29224f;
 }
 
 .menu a.is-current{
